@@ -3,7 +3,6 @@ require_once __DIR__ . '/class/Prodotto.php';
 require_once __DIR__ . '/class/Smartphone.php';
 require_once __DIR__ . '/class/User.php';
 require_once __DIR__ . '/class/Acquistato.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +16,7 @@ require_once __DIR__ . '/class/Acquistato.php';
 </head>
 
 <body>
-
+   
 </body>
 
 </html>
