@@ -15,6 +15,6 @@ class Acquisto {
 
        if($this->user->get_topClient()) {
           return $articolo_prezzo -= 100;
-       } 
+       } return $articolo_prezzo =0;
    }
 }

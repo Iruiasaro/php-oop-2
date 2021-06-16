@@ -32,6 +32,7 @@ $articolo_acquistato = new Acquisto($utente, $samsung);
     echo "Il ns. cliente {$articolo_acquistato->user->get_Nome()} {$articolo_acquistato->user->get_cognome()} ha acquistato {$articolo_acquistato->articolo->get_articolo()}, alla cifra di {$articolo_acquistato->get_sconto_prezzo()} €"
     
     ?>
+    
 </body>
 
 </html>
