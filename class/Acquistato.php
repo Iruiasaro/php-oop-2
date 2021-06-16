@@ -9,4 +9,12 @@ class Acquisto {
         $this->articolo = $_articolo;
    }
 
+   public function get_sconto_prezzo() {
+
+       $articolo_prezzo = $this->articolo->get_prezzo();
+
+       if($this->user->get_topClient()) {
+          return $articolo_prezzo -= 100;
+       } 
+   }
 }
